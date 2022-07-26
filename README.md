@@ -1,5 +1,11 @@
 # Checkport
 
+## Gettings Started
+
+1. Install the `Remote Containers` VS Code extension
+1. Clone this repo in a container volume
+1. Open the terminal and run `elm reactor`
+
 ## Terminology
 
 `Template`: a template used to creating running checklist
@@ -9,5 +15,5 @@
 
 ## TODO
 
-- [ ] Setup Elm basics
-
+- Setup Elm basics
+___
