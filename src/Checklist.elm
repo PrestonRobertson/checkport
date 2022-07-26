@@ -1,7 +1,7 @@
-module Main exposing (main)
+module Checklist exposing (main)
 
 import Browser
-import Html exposing (Hthl, button, div, li, span, ul)
+import Html exposing (Html, button, div, li, span, text, ul)
 import Html.Events exposing (onClick)
 import List
 
@@ -40,8 +40,8 @@ type Msg
 
 init : () -> ( Model, Cmd Msg )
 init _ =
-    ( { items = List }
-    , Cmd.None
+    ( { items = [] }
+    , Cmd.none
     )
 
 
@@ -52,7 +52,7 @@ init _ =
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
     case msg of
-        Complete CheckItem ->
+        Complete checkItem ->
             ( model
             , Cmd.none
             )
@@ -74,4 +74,4 @@ subscriptions model =
 view : Model -> Html Msg
 view model =
     div []
-        [ text "Hello world" ]
+        [ span [] [ text "Hello world" ] ]
