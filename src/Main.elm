@@ -1,4 +1,4 @@
-module Checklist exposing (main)
+module Main exposing (main)
 
 import Browser
 import Html exposing (Html, button, div, li, span, text, ul)
@@ -74,4 +74,4 @@ subscriptions model =
 view : Model -> Html Msg
 view model =
     div []
-        [ span [] [ text "Hello world" ] ]
+        [ span [] [ text "Hello Elm" ] ]

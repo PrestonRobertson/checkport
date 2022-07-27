@@ -1,0 +1,16 @@
+{
+  "name": "Checkport",
+  "short_name": "Checkport",
+  "start_url": "index.html",
+  "scope": "./",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#ffd31d",
+  "background_color": "#333",
+  "display": "standalone"
+}
