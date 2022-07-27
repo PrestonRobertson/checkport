@@ -19,3 +19,4 @@
 
 - Setup Elm basics
 ___
+- Host via Github pages
